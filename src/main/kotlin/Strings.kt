@@ -13,4 +13,10 @@ fun Main () {
 
     println(concatenatedString)
     println(concatenatedString1)
+
+    // There is also string templates that employs the dollar sign
+    var name = "Tumi"
+    println("How are you doing $name")
+
+    //
 }
