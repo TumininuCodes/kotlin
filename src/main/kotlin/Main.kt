@@ -1,3 +1,6 @@
+// Imports
+
+
 // Do you know that comments in Kotlin can be nested?
 
 fun main() {
@@ -24,6 +27,6 @@ fun main() {
     println(1 shl 3) // This is the same as 1 x 2^3
     println(32 shr 2) // This is the same as 32 / 2^2
 
-    
+    val x = sin(45 * PI / 180)
 
 }
