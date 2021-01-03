@@ -13,6 +13,6 @@ fun main() {
     // So shl is a way of multiplying using 2 and shr is a 
     // way of diving by 2
 
-    println(1 shl 3) // 
+    println(1 shl 3) // This is the same as 1 x 2^3
     println(32 shr 2)
 }
