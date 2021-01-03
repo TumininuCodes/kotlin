@@ -6,7 +6,11 @@ fun Main () {
     var greetingMessage = "Hello Tumininu"
     greetingMessage += newChar // This is one way
 
-    var concatenatedString = greetingMessage + newChar
-
     println(greetingMessage)
+
+    var concatenatedString = greetingMessage + newChar
+    var concatenatedString1 = "Hello Tumininu" + "!"
+
+    println(concatenatedString)
+    println(concatenatedString1)
 }
