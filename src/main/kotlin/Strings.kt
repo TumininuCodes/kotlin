@@ -18,5 +18,5 @@ fun Main () {
     var name = "Tumi"
     println("How are you doing $name")
 
-    //
+    //You can also use expressions in string template
 }
