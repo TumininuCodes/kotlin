@@ -31,7 +31,7 @@ fun main() {
     println(x)
 
     val integer : Int = 4
-    val decimal : Double = 3.0
+
     integer.toDouble()
     println(integer)
 
