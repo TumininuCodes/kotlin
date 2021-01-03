@@ -17,3 +17,5 @@ All languages' characters are mapped in unicode. The number attached to the char
 The word “emoji” comes from Japanese, where “e” means picture and “moji” means character
 
 The char data type must be wrapped in single quotes ''
+
+The string data type on the other hand must be wrapped in double quotes ""
