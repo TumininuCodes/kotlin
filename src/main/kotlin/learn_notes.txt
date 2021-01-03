@@ -25,4 +25,4 @@ Strings can be concanated with other strings or even char
 There is also string templates that employs the dollar sign
 
 You can also use expressions in string template. However, care must be taken when using string templates
-as you cannot control the output. 
+as you cannot control the output. Hence, using trancedental numbers could give you outputs that you don't like
