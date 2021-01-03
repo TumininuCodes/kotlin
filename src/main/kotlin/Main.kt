@@ -1,5 +1,5 @@
 // Imports
-
+import kotlin.math.*
 
 // Do you know that comments in Kotlin can be nested?
 
@@ -28,5 +28,11 @@ fun main() {
     println(32 shr 2) // This is the same as 32 / 2^2
 
     val x = sin(45 * PI / 180)
+    println(x)
+
+    val integer : Int = 4
+    val decimal : Double = 3.0
+    integer.toDouble()
+    println(integer)
 
 }

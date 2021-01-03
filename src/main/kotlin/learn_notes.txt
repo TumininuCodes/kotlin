@@ -1,0 +1,19 @@
+In Kotlin, you can use underscores to make large numbers more readable
+
+Increment in kotlin is +=
+Decrement is -=
+We also have /= and *=
+
+val can never be reassigned so you can't use the assignment operator "="
+
+All operators in kotlin can work with mixed operators
+
+Sometimes it’s useful to check the inferred type of a variable or constant. You can do this in IntelliJ by clicking on the variable or constant’s name and holding down the Control + Shift + P keys. IntelliJ will display a popover
+
+ In Kotlin literal values like 3 have a specific type, Int. If you want to convert them to a different type, you must do so explicitly, by calling toDouble() for example. A literal number value that contains a decimal point can only be used as a Double and must be explicitly converted if you want to use it as something else
+
+All languages' characters are mapped in unicode. The number attached to the character is called a code point. Even emojis are mapped in unicode. That's why I can write this: 😒😒
+
+The word “emoji” comes from Japanese, where “e” means picture and “moji” means character
+
+The char data type must be wrapped in single quotes ''
