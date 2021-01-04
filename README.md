@@ -9,4 +9,5 @@ Repo used to master kotlin language
 4. Functions
 5. Nullability - This!
 6. Arrays and Lists
-7. 
+7. Maps and Sets
+8. Lambdas
