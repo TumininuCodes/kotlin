@@ -29,3 +29,5 @@ about what each part represents. For example:
 
     where coordinates has been previously defined as a pair. Check the Pairs_Triple.kt for more info
     x and y both inferred to be of type Int
+
+So underscore, "_" can be used to denote that a variable is not declared when using Triples and Pairs

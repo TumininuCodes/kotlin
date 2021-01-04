@@ -23,4 +23,15 @@ fun main() {
     val (x, y) = cordinatesInt
     println(x)
     println(y)
+
+    val cordinate3D = Triple(3, 4, 5)
+    val (x2, y2, z2) = cordinate3D
+
+    val (x3, y3, _) = cordinate3D // The underscore means the supposed third variable is not declared
+    println(x3)
+    println(y3)
+
+    println(x2)
+    println(y2)
+    println(z2)
 }
