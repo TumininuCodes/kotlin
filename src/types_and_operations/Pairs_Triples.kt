@@ -18,4 +18,9 @@ fun main() {
 
     println(x1)
     println(y1)
+
+    // This can also be done
+    val (x, y) = cordinatesInt
+    println(x)
+    println(y)
 }

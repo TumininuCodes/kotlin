@@ -22,3 +22,10 @@ If you want to have more than three values, you use what Kotlin calls a data cla
 Type inference can infer Pair types too
 
 The keyword "to" can be used to form pairs only that no parentheses is used and the the word Pair isn't used to
+
+Kotlin allows you to use a destructuring declaration on individual parts of a Pair, and you can be explicit
+about what each part represents. For example:
+    val (x, y) = coordinatesInt
+
+    where coordinates has been previously defined as a pair. Check the Pairs_Triple.kt for more info
+    x and y both inferred to be of type Int
