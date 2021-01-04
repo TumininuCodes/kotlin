@@ -19,4 +19,6 @@ Repo used to master kotlin language
 14. Enum classes
 15. Interfaces
 16. Generics
-17. 
+17. Kotlin/Java Interoperability
+18. Exceptions
+19. Functional Programming
