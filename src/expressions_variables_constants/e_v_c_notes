@@ -1,4 +1,10 @@
+Do you know that comments in Kotlin can be nested?
+
+val is like value and var is like variable
+
 In Kotlin, you can use underscores to make large numbers more readable
+
+So shl is a way of multiplying using 2 and shr is a way of diving by 2
 
 Increment in kotlin is +=
 Decrement is -=
