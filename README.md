@@ -11,3 +11,5 @@ Repo used to master kotlin language
 6. Arrays and Lists
 7. Maps and Sets
 8. Lambdas
+9. Classes
+10. Objects
