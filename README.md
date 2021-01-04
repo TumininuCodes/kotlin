@@ -22,3 +22,8 @@ Repo used to master kotlin language
 17. Kotlin/Java Interoperability
 18. Exceptions
 19. Functional Programming
+20. Conventions & Operator Overloading
+21. Kotlin Coroutines
+22. Scripting with Kotlin
+23. Kotlin/Native
+24. Kotlin Multiplatform
