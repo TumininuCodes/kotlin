@@ -16,3 +16,9 @@ as you cannot control the output. Hence, using transcedental numbers could give 
 
 kotlin also has multiline strings which aids readability. The strings appear as they are inputted in the editor
 
+Pair or Triple are types that represent data composed of two or three values of any type.
+If you want to have more than three values, you use what Kotlin calls a data clas
+
+Type inference can infer Pair types too
+
+The keyword "to" can be used to form pairs only that no parentheses is used and the the word Pair isn't used to
