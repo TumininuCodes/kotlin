@@ -13,3 +13,10 @@ Repo used to master kotlin language
 8. Lambdas
 9. Classes
 10. Objects
+11. Properties
+12. Methods
+13. Advanced Classes
+14. Enum classes
+15. Interfaces
+16. Generics
+17. 
