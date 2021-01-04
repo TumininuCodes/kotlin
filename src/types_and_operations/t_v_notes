@@ -1,0 +1,15 @@
+All languages' characters are mapped in unicode. The number attached to the character is called a code point.
+Even emojis are mapped in unicode. That's why I can write this: 😒😒
+
+The word “emoji” comes from Japanese, where “e” means picture and “moji” means character
+
+The char data type must be wrapped in single quotes ''
+
+The string data type on the other hand must be wrapped in double quotes ""
+
+Strings can be concanated with other strings or even char
+
+There is also string templates that employs the dollar sign
+
+You can also use expressions in string template. However, care must be taken when using string templates
+as you cannot control the output. Hence, using trancedental numbers could give you outputs that you don't like
