@@ -1,5 +1,6 @@
 # kotlin
 Repo used to master kotlin language
+-> Each key area code is accompanied with a note for refernce
 
 
 # Key areas
