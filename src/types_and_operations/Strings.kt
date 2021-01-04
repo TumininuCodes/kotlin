@@ -1,3 +1,5 @@
+package types_and_operations
+
 fun Main() {
 
     // An example of concatenation of strings
