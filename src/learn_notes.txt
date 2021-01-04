@@ -1,5 +1,5 @@
 
-All languages' characters are mapped in unicode. The number attached to the character is called a code point. Even emojis are mapped in unicode. That's why I can write this: 😒😒
+All languages' characters are mapped in unicode. The number attached to the character is called types_and_operations.a code point. Even emojis are mapped in unicode. That's why I can write this: 😒😒
 
 The word “emoji” comes from Japanese, where “e” means picture and “moji” means character
 
