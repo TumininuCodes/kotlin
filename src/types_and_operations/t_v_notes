@@ -39,4 +39,6 @@ whether an Int or a String, is also considered an Any. This is similar to the Ob
 root of all types except primitives.
 
 Unit is a special type which only ever represents one value: the Unit object. It is similar to
-the void type in Java, except it makes working with generics easier
+the void type in Java, except it makes working with generics easier. Every function which does not explicitly
+return a type, returns a Unit
+
