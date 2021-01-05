@@ -34,3 +34,6 @@ So underscore, "_" can be used to denote that a variable is not declared when us
 
 The Any, Unit and Nothing are also data types in Kotlin
 
+The Any type can be thought of as the mother of all other types (except nullable types). Every type in Kotlin,
+whether an Int or a String, is also considered an Any. This is similar to the Object type in Java, which is the
+root of all types except primitives.
