@@ -31,3 +31,6 @@ about what each part represents. For example:
     x and y both inferred to be of type Int
 
 So underscore, "_" can be used to denote that a variable is not declared when using Triples and Pairs
+
+The Any, Unit and Nothing are also data types in Kotlin
+
