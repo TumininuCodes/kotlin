@@ -47,3 +47,5 @@ but also never completes. This can occur if a function either causes the program
 an Exception or if it simply goes on forever without ever finishing.
 
 Always remember, Unicode is the standard for mapping characters to numbers
+
+Remember, Any is the mother of all non-nullable types, Unit is kind of like void in Java, and Nothing is well, nothing
