@@ -2,3 +2,4 @@ A Boolean can only be either true or false, denoted by the keywords true and fal
 
 In kotlin, Boolean values can also be inferred
 
+In Kotlin, the operator for Boolean AND is &&
