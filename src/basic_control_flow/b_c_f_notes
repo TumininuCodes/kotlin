@@ -12,3 +12,13 @@ comparing
 
 The first and most common way of controlling the flow of a program is through the use of an if expression, which allows
 the program to do something only if a certain condition is true
+
+You can extend an if expression to provide code to run in case the condition turns out to be false. This is known
+as the else clause.
+
+If else statements can also be used to return a value
+
+A while loop repeats a block of code while a condition is true
+
+A variant of the while loop is called the do-while loop. It differs from the while loop in that the condition is
+evaluated at the end of the loop rather than at the beginning
