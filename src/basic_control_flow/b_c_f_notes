@@ -22,3 +22,5 @@ A while loop repeats a block of code while a condition is true
 
 A variant of the while loop is called the do-while loop. It differs from the while loop in that the condition is
 evaluated at the end of the loop rather than at the beginning
+
+You use the break keyword to break out of a loop
