@@ -10,3 +10,5 @@ Like Integers and other primitive data types, Strings can be compared using Bool
 the StringEquality.kt file for more info. And in Kotlin, higher alphabets are greater than lower alphabets when
 comparing
 
+The first and most common way of controlling the flow of a program is through the use of an if expression, which allows
+the program to do something only if a certain condition is true
