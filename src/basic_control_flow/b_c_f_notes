@@ -5,3 +5,6 @@ In kotlin, Boolean values can also be inferred
 In Kotlin, the operator for Boolean AND is &&
 
 In Kotlin, the operator for Boolean OR is ||
+
+Like Integers and other primitive data types, Strings can be compared using Boolean operators like ==, <, >, etc. Check
+the StringEquality.kt file for more info
