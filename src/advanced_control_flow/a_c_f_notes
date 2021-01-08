@@ -1,0 +1,5 @@
+Ranges in kotlin enables you to represent a sequence of countable integers
+
+We have closed range and half opened range as seen in the Range.kt file
+
+A "repeat" loop comes in handy a lot
