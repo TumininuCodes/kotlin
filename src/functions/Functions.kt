@@ -4,6 +4,8 @@ fun main() {
     printMultipleOfFive(10)
 
     val (product, quotient) = multiplyAndDivide(4, 2)
+    println(product)
+    println(quotient)
 }
 
 fun printMultipleOfFive(value: Int) {
