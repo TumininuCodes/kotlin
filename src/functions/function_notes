@@ -5,3 +5,9 @@ to copy and paste the same code everywhere
 So functions in Kotlin pretty much work the same for parameters and a bunch of stuff like that
 
 Functions can also be used to return a data type, where the data type has to be specified
+
+Function parameters are constants by default, which means they can’t be modified
+
+Usually you want this behavior. Ideally, a function doesn’t alter its parameters. If it did,
+then you could not be sure of the parameters’ values and you might make incorrect assumptions in your code,
+leading to the wrong data
