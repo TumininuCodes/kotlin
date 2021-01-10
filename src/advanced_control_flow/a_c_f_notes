@@ -3,3 +3,10 @@ Ranges in kotlin enables you to represent a sequence of countable integers
 We have closed range and half opened range as seen in the Range.kt file
 
 A "repeat" loop comes in handy a lot
+
+Sometimes you’d like to skip a loop iteration for a particular case without breaking out of the loop
+entirely. You can do this with the continue statement, which immediately ends the current iteration of the loop
+and starts the next iteration
+
+You can also control flow via the when expression. It executes different code depending on the value of a variable
+or constant
