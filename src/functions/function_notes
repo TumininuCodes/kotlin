@@ -1,3 +1,7 @@
 Functions are a core part of many programming languages. Simply put, a function lets you define a block of code
 that performs a task. Then, whenever your app needs to execute that task, you can run the function instead of having
 to copy and paste the same code everywhere
+
+So functions in Kotlin pretty much work the same for parameters and a bunch of stuff like that
+
+Functions can also be used to return a data type, where the data type has to be specified
