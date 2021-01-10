@@ -10,3 +10,5 @@ and starts the next iteration
 
 You can also control flow via the when expression. It executes different code depending on the value of a variable
 or constant
+
+Ranges can also be used with when. For example in 0..4
