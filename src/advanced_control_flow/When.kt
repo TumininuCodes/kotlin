@@ -18,4 +18,18 @@ fun main() {
         "Cat", "Dog" -> println("Animal is a house pet.")
         else -> println("Animal is not a house pet.")
     }
+
+    val numberName = when (number) {
+        2 -> "two"
+        4 -> "four"
+        6 -> "six"
+        8 -> "eight"
+        10 -> "ten"
+        else -> {
+            println("Unknown number")
+            "Unknown"
+        }
+    }
+
+    println(numberName)
 }
