@@ -15,3 +15,4 @@ leading to the wrong data
 Have you heard of overloading in functions, overloading and lets you define similar functions using a single name. In
 Kotlin, the return type alone is not enough to distinguish two functions
 
+The method reference operator :: can be used to return values of functions as variables
