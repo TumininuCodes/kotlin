@@ -1,7 +1,5 @@
 package functions
 
-import types_and_operations.add
-
 fun main() {
     printMultipleOfFive(10)
 
@@ -11,7 +9,9 @@ fun main() {
 
     var usingReferenceOperator = ::add
 
-    println(usingReferenceOperator)
+    usingReferenceOperator(4, 2)
+
+    println(usingReferenceOperator(4, 2))
 }
 
 fun printMultipleOfFive(value: Int) {
