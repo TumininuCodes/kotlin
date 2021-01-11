@@ -11,3 +11,7 @@ Function parameters are constants by default, which means they can’t be modifi
 Usually you want this behavior. Ideally, a function doesn’t alter its parameters. If it did,
 then you could not be sure of the parameters’ values and you might make incorrect assumptions in your code,
 leading to the wrong data
+
+Have you heard of overloading in functions, overloading and lets you define similar functions using a single name. In
+Kotlin, the return type alone is not enough to distinguish two functions
+
