@@ -26,3 +26,5 @@ There are many ways to solve problems with functions. The best (easiest to use a
 task rather than trying to do many. This makes them easier to mix and match and assemble into more complex behaviors.
 Good functions also have a well defined set of inputs that produce the same output every time. This makes them easier
 to reason about and test in isolation. Keep these rulesof-thumb in mind as you create function
+
+For clarity at the call site you can use named arguments when calling a function

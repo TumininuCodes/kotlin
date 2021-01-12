@@ -1,0 +1,4 @@
+All the variables and constants you’ve dealt with so far have had concrete values. When you had a string variable, like
+var name, it had a string value associated with it, like "Joe Howard". It could have been an empty string, like "", but
+nevertheless, there was a value to which you could refer. That’s one of the built-in safety features of Kotlin: If the
+type says Int or String, then there’s an actual integer or string there — guaranteed
