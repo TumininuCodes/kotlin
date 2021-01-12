@@ -6,7 +6,7 @@ type says Int or String, then there’s an actual integer or string there — gu
 There are two different methods you can use to remove nullables:
 
  The first is using not-null assertion operator !!
-
+ The second is checking if a variable is null or not before using it, using smart cast
 
 You can't use non-null values with null values in an operation except remove the nullables using the above methods
 
@@ -15,3 +15,5 @@ You should use not-null assertions sparingly. To see why, consider what happens 
 value
 
 The null-pointer exception occurs because the variable you want to use contains no value when you try to use it
+
+What’s worse is that you get this exception at runtime rather than compile time
