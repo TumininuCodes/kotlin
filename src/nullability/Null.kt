@@ -9,4 +9,10 @@ fun main() {
 
     val result: Int? = 30
     println(result)
+
+    var authorName: String? = "Joe Howard"
+    var authorAge: Int? = 24
+
+    val ageAfterBirthday = authorAge!! + 1
+    println("After his next birthday, author's age will be $ageAfterBirthday")
 }

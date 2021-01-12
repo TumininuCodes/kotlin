@@ -2,3 +2,10 @@ All the variables and constants you’ve dealt with so far have had concrete val
 var name, it had a string value associated with it, like "Joe Howard". It could have been an empty string, like "", but
 nevertheless, there was a value to which you could refer. That’s one of the built-in safety features of Kotlin: If the
 type says Int or String, then there’s an actual integer or string there — guaranteed
+
+There are two different methods you can use to remove nullables:
+
+ The first is using not-null assertion operator !!
+
+
+You can't use non-null values with null values in an operation except remove the nullables using the above methods
