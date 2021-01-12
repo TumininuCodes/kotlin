@@ -16,3 +16,8 @@ Have you heard of overloading in functions, overloading and lets you define simi
 Kotlin, the return type alone is not enough to distinguish two functions
 
 The method reference operator :: can be used to return values of functions as variables
+
+The fact that you can assign functions to variables comes in handy because it means you can pass functions to other
+functions. There’s an example of this in action in Functions.kt file
+
+Assigning functions to variables and passing functions around as arguments is one aspect of functional programming

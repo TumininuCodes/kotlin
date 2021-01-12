@@ -12,6 +12,10 @@ fun main() {
     usingReferenceOperator(4, 2)
 
     println(usingReferenceOperator(4, 2))
+
+
+    // Passing functions to other functions
+    printResult(::add, 4, 2)
 }
 
 fun printMultipleOfFive(value: Int) {
@@ -24,4 +28,10 @@ fun multiplyAndDivide(number: Int, factor: Int): Pair<Int, Int> {
 
 fun add(a: Int, b: Int): Int {
     return a + b
+}
+
+// Passing functions to other functions
+fun printResult(function: (Int, Int) -> Int, a: Int, b: Int) {
+    val result = function(a, b)
+    println(result)
 }
