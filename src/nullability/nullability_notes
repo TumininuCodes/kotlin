@@ -17,3 +17,5 @@ value
 The null-pointer exception occurs because the variable you want to use contains no value when you try to use it
 
 What’s worse is that you get this exception at runtime rather than compile time
+
+Only safe (?.) or non-null asserted (!!) calls are allowed on a nullable receiver of type String?
