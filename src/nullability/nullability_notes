@@ -24,3 +24,6 @@ If a safe call is made on a value that is null, the expression stops evaluating 
 result of a safe call can be null, expressions using safe calls on nullables return nullable types. For example,
 nameLength above is of type Int? and not Int, even though the length property on a string is not-nullable. The type
 of the entire expression is nullable
+
+The safe call operator provides another way to use smart casts to work with the nonnull value inside a nullable,
+via the let() function from the standard library
