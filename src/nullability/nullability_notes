@@ -27,3 +27,6 @@ of the entire expression is nullable
 
 The safe call operator provides another way to use smart casts to work with the nonnull value inside a nullable,
 via the let() function from the standard library
+
+Have you heard of the elvis operator??? It's another handy way to get a value from a nullable. You use it when you want
+to get a value out of the nullable no matter what — and in the case of null, you’ll use a default value
