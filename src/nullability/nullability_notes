@@ -19,3 +19,8 @@ The null-pointer exception occurs because the variable you want to use contains 
 What’s worse is that you get this exception at runtime rather than compile time
 
 Only safe (?.) or non-null asserted (!!) calls are allowed on a nullable receiver of type String?
+
+If a safe call is made on a value that is null, the expression stops evaluating the chain and returns null. Since the
+result of a safe call can be null, expressions using safe calls on nullables return nullable types. For example,
+nameLength above is of type Int? and not Int, even though the length property on a string is not-nullable. The type
+of the entire expression is nullable
