@@ -1,0 +1,3 @@
+An array is an ordered collection of values of the same type. The elements in the array are zero-indexed, which means
+the index of the first element is 0, the index of the second element is 1, and so on. Knowing this, you can work out
+that the last element’s index is the number of values in the array less 1
