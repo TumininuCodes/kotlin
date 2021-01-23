@@ -1,3 +1,10 @@
 An array is an ordered collection of values of the same type. The elements in the array are zero-indexed, which means
 the index of the first element is 0, the index of the second element is 1, and so on. Knowing this, you can work out
 that the last element’s index is the number of values in the array less 1
+
+Arguments can be passed into the main function with the optional args: Array<String>
+
+Like in Java, the List type in Kotlin is an interface that has concrete realizations in types such as ArrayList,
+LinkedList and others. Arrays are typically more efficient than lists in terms of raw performance, but lists have the
+additional feature of being dynamically-sized. That is, arrays are of fixed-size, but lists can be setup to grow and
+shrink as needed, as you’ll see later  when learning about mutable lists.
