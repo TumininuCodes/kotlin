@@ -2,6 +2,7 @@
   <dictionary name="Tumi">
     <words>
       <w>nullable</w>
+      <w>nullables</w>
     </words>
   </dictionary>
 </component>

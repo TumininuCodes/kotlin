@@ -8,3 +8,11 @@ Like in Java, the List type in Kotlin is an interface that has concrete realizat
 LinkedList and others. Arrays are typically more efficient than lists in terms of raw performance, but lists have the
 additional feature of being dynamically-sized. That is, arrays are of fixed-size, but lists can be setup to grow and
 shrink as needed, as you’ll see later  when learning about mutable lists.
+
+Properties and methods can be used on lists too. Check the code for more info
+
+When dealing with lists, the methods min() and max() return nullables
+
+The most convenient way to access elements in a list is to use indexing
+
+Remember lists can only store one data type like arrays
