@@ -9,3 +9,7 @@ Hashing is the process of transforming a value — String, Int, Double, Boolean,
 known as the hash value.  This value can then be used to quickly look up the values in a hash table
 
 For performance-critical code, HashMap<K, V> should be used via hashMapOf(), instead of mapOf()
+
+A set is an unordered collection of "unique" values of the same type. This can be extremely useful when you want
+to ensure that an item doesn’t appear more than once in your collection, and when the order of your items isn’t
+important
