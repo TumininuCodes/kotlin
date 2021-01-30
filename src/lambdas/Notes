@@ -1,0 +1,4 @@
+A lambda expression is simply a function with no name; you can assign it to a variable and pass it around like any other
+value. These have many uses, and become particularly useful when dealing with collections such as an array or map
+
+Lambdas are also known as anonymous functions
