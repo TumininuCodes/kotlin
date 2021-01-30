@@ -73,5 +73,22 @@ fun main() {
 
     // Using the index function to locate an element
     print(players.indexOf("Dan").toString())
+
+    // Updating elements
+    println(players.joinToString())
+    players[4] = "Yemi Franklin"
+    println(players.joinToString())
+    // OR
+    players.set(2, "Abram")
+
+    // Sorting an element in an alphabetical order
+    println(players.joinToString())
+    players.sort()
+    println(players.joinToString())
+
+    // Updating an array of fixed size
+    val arrayOfInt = arrayOf(1, 2, 3)
+    arrayOfInt[0] = 4
+    println(arrayOfInt.joinToString())
 }
 
