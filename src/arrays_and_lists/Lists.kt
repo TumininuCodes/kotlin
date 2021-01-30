@@ -1,6 +1,7 @@
 package arrays_and_lists
 
 fun main() {
+
     val innerPlanets = listOf("Mercury", "Venus", "Earth", "Mars")
     // The above can also be written as listOf<String>(...)
     println(innerPlanets)

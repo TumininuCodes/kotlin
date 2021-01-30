@@ -1,0 +1,5 @@
+A map is an unordered collection of pairs, where each pair is comprised of a key and a value
+
+Maps are similar to dictionaries in Python
+
+With arrays, out-of-bounds index access causes a runtime error, but not so for maps
