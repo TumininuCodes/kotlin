@@ -3,3 +3,9 @@ A map is an unordered collection of pairs, where each pair is comprised of a key
 Maps are similar to dictionaries in Python
 
 With arrays, out-of-bounds index access causes a runtime error, but not so for maps
+
+In order to be able to examine how maps work, you need to understand what hashing is and how it works.
+Hashing is the process of transforming a value — String, Int, Double, Boolean, etc — to a numeric value,
+known as the hash value.  This value can then be used to quickly look up the values in a hash table
+
+For performance-critical code, HashMap<K, V> should be used via hashMapOf(), instead of mapOf()
