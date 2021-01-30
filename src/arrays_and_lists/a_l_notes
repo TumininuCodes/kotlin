@@ -16,3 +16,7 @@ When dealing with lists, the methods min() and max() return nullables
 The most convenient way to access elements in a list is to use indexing
 
 Remember lists can only store one data type like arrays
+
+While arrays are fixed, you can still add items if it is initialised with var.But beware that you are not actually
+appending the value onto the existing array, but instead creating an entirely new array that has the additional element
+and assigning the new array to the original variable

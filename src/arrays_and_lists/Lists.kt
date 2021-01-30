@@ -50,5 +50,28 @@ fun main() {
 
     // You can also use the contains() method
     players.slice(1..3).contains("Bob")
+
+    // Adding elements to a list
+    players.add("Gina")
+    players.add(0, "Alex")
+    players += "Silas"
+    println(players.joinToString())
+
+    // Adding element to an array initialised with var
+    var array = arrayOf(1, 2, 3)
+    array += 4
+    println(array.joinToString())
+
+    // Removing elements
+    var removedPlayers = players.remove("Alex")
+    println(removedPlayers)
+    //This method does two things: It removes the element and then returns a Boolean indicating whether the
+    //removal was successful, so that you can make sure the cheater has been removed
+    val removedAt = players.removeAt(2)
+    println(removedAt)
+
+
+    // Using the index function to locate an element
+    print(players.indexOf("Dan").toString())
 }
 
