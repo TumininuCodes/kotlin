@@ -2,3 +2,7 @@ A lambda expression is simply a function with no name; you can assign it to a va
 value. These have many uses, and become particularly useful when dealing with collections such as an array or map
 
 Lambdas are also known as anonymous functions
+
+For a lambda that has only one parameter, you can shorten it even further using the it keyword
+
+Lambdas can also access variables in their scope where they are defined and this is ver useful
