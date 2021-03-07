@@ -41,5 +41,18 @@ fun main() {
     }
     unitLambda()
 
-    //
+    // Custom sorting with lambdas
+    val names = arrayOf("ZZZZZZ", "BB", "A", "CCCC", "EEEEE")
+    names.sorted()
+
+    val namesByLengthDescend = names.sortedWith(compareBy {
+        -it.length
+    })
+
+    val namesByLengthAscend = names.sortedWith(compareBy {
+        +it.length
+    })
+
+    println(namesByLengthDescend)
+    println(namesByLengthAscend)
 }
